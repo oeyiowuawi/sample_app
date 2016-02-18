@@ -1,6 +1,12 @@
 
-
+<div class="center jumbotron">
 <h1>Sample App</h1>
-<p>
- This is the official Home of the Ruby On rails Tutorial <a href="http://www.railstutorial.org">Rails tutorial</a>
-</p>
+<h2>
+    This is the home page for the
+    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    sample application.
+  </h2>
+
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+<%= link_to image_tag("rails.png", alt: "Rails logo"),'/assets/rails.png' %>

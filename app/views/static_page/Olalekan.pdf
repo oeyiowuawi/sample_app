@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>LASRRA Web Registration</title> 
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/font-awesome.min.css">
+    <!--[if IE 7]>
+    <link rel="stylesheet" href="/static/css/font-awesome-ie7.min.css">
+    <![endif]-->
+    
+    <link href="./static/css/datepicker.css" rel="stylesheet">  
+    <link href="./static/css/jquery.autocomplete.css" rel="stylesheet">  
+
+
+    <!--link rel="shortcut icon" href="/favicon.ico"-->
+    <link rel="stylesheet" href="/static/css/lassra.css" type="text/css" />
+    <link rel="stylesheet" href="/static/css/j.lassra.css" type="text/css" />
+    
+     
+
+    <style type="text/css">
+    
+	th { width:30%;}
+	.child { 
+		margin-bottom: 5px;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.review { 
+		margin-bottom: 30px;
+	}
+	.li_align{
+		border-bottom: solid 1px #ccc;
+		height: 30px;
+	}
+	.li_align:last-child {
+		border-bottom: none
+	}
+	.li_align ul{ 
+		
+		list-style: none;
+		margin-left: 0px;
+		//margin-bottom:10px;
+		//margin-top:5px
+	}
+	.li_align li{
+		float: left;
+		margin-left:10px;
+		padding:5px;
+		padding-top: 0px;
+		
+
+	}
+	.li_align li:first-child{
+		margin-left:0px;
+		text-align:left;
+	}
+    .child-table  th:nth-child(1), .child-table   td:nth-child(1) { 
+		border-left: none ! important ;
+		width: 10%;
+	}
+	.child-table td, .child-table  th{
+		background-color: inherit !important; 
+		width: 100%;
+	}
+
+ 
+    </style>
+</head>
+<body> 
+
+<div id="wrapper">
+    <div id="header">
+        <div class="logo">
+            
+            <a href="/page/welcome"><img src="/static/img/logo.png" alt=""></a>
+            
+        </div>
+        <div class="title">
+            <h1>
+	Lagos State Residents Online Registration
+
+            </h1>
+                    
+            <div >
+                <ul class="linklist">
+                    <li>
+                        <a href="/page/welcome">
+                        <i class="icon-home"></i>
+                        Home
+                        </a><span class="divider">|</span>
+                    </li>
+                    <li> 
+                        <a id="btn_menu_contact" href="/page/contact">
+                            <i class="icon-envelope-alt"></i>
+                            Contact
+                        </a> <span class="divider">|</span>
+                    </li>
+                    <li>
+                        <a id="btn_menu_help" href="/page/help">
+                        <i class="icon-info-sign"></i>
+                        Help
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="fclear"></div>
+    </div> 
+
+    
+    
+
+    
+
+
+<div class ="page_body"> 
+	<h2 style="margin-top: 2px;"> Registration Confirmation </h2>
+	<div class="center">
+		<p> 
+			Congratulations. You have successfully submitted your registration details Online. 
+			An email message containing your registration details has been sent to the email address you provided.
+		</p>		
+		<p> Please print the confirmation slip below by clicking on the “Print” button.. </p>
+		<p>
+			You must now proceed to a registration centre with the printed copy of your confirmation slip to capture your biometrics. 
+			You must bring to the registration station original and copy of your proof of identification and proof of residence. 
+			For details of the required documents click <a class="bold" href="/page/requirement">here.</a>
+		</p>
+		<p>
+			If you registered children, you must bring 2 passport photographs and the original and photocopy of their birth certificates to the registration station. 
+			Children are not required to come to the registration station. 
+			For requirements to register children at the station click <a class="bold" href="/page/requirement">here.</a> 
+		</p>
+		<p> 
+			Printing of the confirmation page is mandatory as the information on the printed page will be used at the station to complete the registration. 
+			Printed information must be taken to the station.		
+		</p>
+		<p> 
+			To locate the nearest registration station, click <a class="bold" href="/page/enrolment">here.</a>
+		</p>
+	</div>  
+	
+	<div class="preview"> 	    
+        <div class="review"> 
+            <h3> Online Registration Information </h3>
+            <table class="table table-striped table-bordered">
+                
+				<tr>  
+				
+				
+				
+					<th> Online Registration ID</th>  <td> 10268724Y1 </td>
+				
+				</tr>
+				
+				<tr>  
+				
+				
+				
+					
+						
+													
+								<th> Surname</th>  <td> EYIOWUAWI </td>
+							
+						
+					
+				
+				</tr>
+				
+				<tr>  
+				
+				
+				
+					
+						
+													
+								<th> First Name</th>  <td> OLALEKAN </td>
+							
+						
+					
+				
+				</tr>
+				
+				<tr>  
+				
+				
+				
+					
+						
+													
+								<th> Other Name</th>  <td> LATEEF </td>
+							
+						
+					
+				
+				</tr>
+				
+				<tr>  
+				
+				
+				
+					
+						
+									
+								<th> Gender </th> <td> MALE </td>
+							
+						
+					
+				
+				</tr>
+				
+				<tr>  
+				
+				
+				
+					
+						
+													
+								<th> Date of Birth (DD/MM/YYYY) </th> <td> 04/11/1992  </td>
+							
+						
+					
+				
+				</tr>
+				
+				<tr>  
+				
+				
+				
+					
+						
+													
+								<th> State of Residence</th>  <td> LAGOS </td>
+							
+						
+					
+				
+				</tr>
+				
+				<tr>  
+				
+				
+				
+					
+						
+													
+								<th> Lg/Lcda</th>  <td> YABA LCDA </td>
+							
+						
+					
+				
+				</tr>
+				
+				<tr>  
+				
+				
+				
+					
+				
+				</tr>
+				
+
+				
+
+            </table> 
+        </div>  	 
+	      	 	  
+	</div>
+	 	  
+	<div class="default_btn_length" style="margin-top: 40px; padding: 5px;"> 
+		 <a href="#" class="btn btn-inverse print_btn"><i class="icon icon-print"></i>&nbsp;&nbsp;Print Confirmation</a> 
+		 <a class="btn btn-success"  style="margin-left:55px;" href="/page/welcome"> <i class="icon icon-home"></i> &nbsp; Back to Main Page </a>
+	</div>
+</div>
+<iframe src="/submit/print_form" id="print_slip" name="print_slip" style="height:1px; width:1px;"></iframe>
+
+    
+        <div class="footer">
+            Copyright (C) 2013, Lagos State Residents Registration Agency   
+        </div>
+    
+</div> 
+
+<script src="/static/js/libs/jquery-1.8.2.min.js"></script>
+<script src="/static/js/libs/bootstrap.min.js"></script>
+<script src="/static/js/libs/bootstrap-datepicker.js"></script>
+<script src="/static/js/libs/jquery.taconite.js"></script>
+<script src="/static/js/libs/jquery.blockUI.js"></script>
+<script src="/static/js/libs/jquery.autocomplete.js"></script>
+
+<script type="text/javascript"> 
+//$.taconite.debug = true;
+$.ajaxSetup({
+    cache: false
+});
+</script>
+
+ 
+
+
+<script type="text/javascript">
+    $(function() {                   
+
+    $('[id^="bk"]').click(function(e) {
+        history.go(-1);
+        e.preventDefault();
+    })
+    
+slip_printed = false;
+
+$(document).ready(function(){
+	var group_btn = $(".btn-group").children().removeClass("active");	 
+	var submit_btn = group_btn[2];
+	$(submit_btn).addClass("active");
+	$(".print_btn").click(function(){ 
+		var content = $(".preview").clone();
+		$("#print_slip").contents().find(".span12").html(content);
+		
+		//slip_printed = true;		
+		window.frames["print_slip"].focus();
+		window.frames["print_slip"].print();	 
+	});
+});  
+
+
+$(window).on('beforeunload', function(ev) {
+    var message = "Please print your confirmation slip before leaving this page. Once you leave this page you will not be able to print your confirmation slip again!"
+
+    if (slip_printed === false) {
+        ev = ev || window.event;
+
+        // For IE and Firefox prior to version 4
+        if (ev) {
+            ev.returnValue = message;
+        }
+
+
+        return message;
+    }
+    
+});
+
+
+    })
+
+</script>
+
+</body>
+</html>
+
